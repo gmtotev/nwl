@@ -188,7 +188,6 @@ void nwlEventAction::EndOfEventAction(const G4Event* event)
                 analysisManager->FillNtupleDColumn(counter++, parentNeutron->GetOriginPoint().y());
                 analysisManager->FillNtupleDColumn(counter++, parentNeutron->GetOriginPoint().z());
                 analysisManager->FillNtupleDColumn(counter++, parentNeutron->GetOriginTime());
-                analysisManager->FillNtupleDColumn(counter++, parentNeutron->GetOriginTime());
                 analysisManager->FillNtupleDColumn(counter++, parentNeutron->GetOriginKineticEnergy());
                 analysisManager->FillNtupleSColumn(counter++, parentNeutron->GetOriginVolumeName());
                 analysisManager->FillNtupleSColumn(counter++, parentNeutron->GetCreatorProcess());
